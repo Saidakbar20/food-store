@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 1310px;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style-type: none;
+}
