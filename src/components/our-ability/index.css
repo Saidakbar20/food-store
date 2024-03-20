@@ -1,0 +1,60 @@
+.services-inner {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    
+    .cards {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .card {
+        width: 250px;
+        height: 220px;
+        border-radius: 7px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #0000002f;
+        transition: .2s;
+    }
+    
+    .services-card-1-title {
+        font-size: 20px;
+        font-family: Hind Madurai;
+        font-weight: 700px;
+        margin-top: 25px;
+    }
+    
+    .services-card-1-text-box {
+        width: 230px;
+        padding-top: 18px;
+    }
+    
+    .services-card-1-text {
+        padding-left: 35px;
+        font-family: Hind Madurai;
+        font-weight: 400px;
+    }
+    
+    .services-card-2-text-box {
+        width: 230px;
+        padding-top: 18px;
+    }
+    
+    .services-card-3-text-box {
+        width: 230px;
+        padding-top: 18px;
+    }
+    .services-card-4-text-box {
+        width: 230px;
+        padding-top: 18px;
+    }
+    .card:hover {
+        border: none;
+        box-shadow: 0 0 20px 20px #1b39cb33;
+    }
+    
+  
