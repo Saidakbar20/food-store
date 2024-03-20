@@ -1,8 +1,9 @@
 import React from "react";
 import "./index.css";
-import car from "../../assets/img/deliver.png";
-import group from "../../assets/img/return.png";
-import fastdeliver from "../../assets/img/fastdeliver.png";
+import deliver from "../../assets/img/deliver.png";
+import returnmoney from "../../assets/img/return.png";
+import fastsilver from "../../assets/img/fastsilver.png";
+import packing from "../../assets/img/packing.png";
 
 export const Ability = () => {
   return (
@@ -13,7 +14,7 @@ export const Ability = () => {
             <div className="cards">
               <div className="card">
                 <img
-                  src={car}
+                  src={deliver}
                   alt=""
                   className="services-card-1"
                   width={50}
@@ -29,7 +30,7 @@ export const Ability = () => {
               </div>
               <div className="card">
                 <img
-                  src={group}
+                  src={packing}
                   alt=""
                   className="services-card-2"
                   width={50}
@@ -45,7 +46,7 @@ export const Ability = () => {
               </div>
               <div className="card">
                 <img
-                  src={fastdeliver}
+                  src={returnmoney}
                   alt=""
                   className="services-card-3"
                   width={50}
@@ -61,6 +62,7 @@ export const Ability = () => {
               </div>
               <div className="card">
                 <img
+                  src={fastsilver}
                   alt=""
                   className="services-card-4"
                   width={50}
